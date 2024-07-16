@@ -1,0 +1,20 @@
+---
+config-version: "1"
+messages:
+  message-prefix: "§7(§d§lAdvanced§3Spawn§r) "
+  no-spawn-set: "§cSpawn not set"
+  teleport-to-spawn: "You've been §lteleported §r§7to spawn"
+  no-permission-to-teleport-other-players-to-spawn: "§cYou do not have permission to teleport other players to spawn"
+  player-not-found: "§cPlayer not found"
+  player-cannot-be-teleported-to-spawn: "§cThis player can't be teleported to spawn"
+  teleport-other-player-to-spawn: "§lPlayer {playerName} has been teleported §r§7to spawn"
+  spawn-set: "You've §lset §r§7spawn"
+  spawn-deleted: "You've §ldeleted §r§7spawn"
+spawn-location:
+  x: 0
+  y: 64
+  z: 0
+  world: world
+  yaw: 0
+  pitch: 0
+...

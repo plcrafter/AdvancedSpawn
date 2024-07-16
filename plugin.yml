@@ -1,0 +1,32 @@
+name: AdvancedSpawn
+main: plcrafter\AdvancedSpawn\Main
+src-namespace-prefix: plcrafter\AdvancedSpawn
+version: 1.0.0
+api: 5.0.0
+author: plcrafter
+description: Just an advanced spawn plugin
+website: https://github.com/plcrafter?tab=repositories
+commands:
+  spawn:
+    description: Teleports to spawn
+    usage: "/spawn [player: playerName]"
+    permission: advancedspawn.command.spawn
+  setspawn:
+    description: Sets the spawn
+    usage: "/setspawn"
+    permission: advancedspawn.command.setspawn
+  delspawn:
+    description: Deletes the spawn
+    usage: "/delspawn"
+    permission: advancedspawn.command.delspawn
+permissions:
+  advancedspawn.command.spawn:
+    default: true
+  advancedspawn.command.setspawn:
+    default: op
+  advancedspawn.command.delspawn:
+    default: op
+  advancedspawn.permission.spawn.other:
+    default: op
+  advancedspawn.permission.spawn.other.bypass:
+    default: op
